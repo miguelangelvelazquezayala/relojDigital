@@ -1,0 +1,55 @@
+.digito {
+  background-color: black;
+  position: relative;
+  width: 80px;
+  height: 144px;
+  margin: 20px; 
+  div {
+    position: absolute;
+    background-color: red;
+  }
+}
+
+h1{
+    color: red;    
+}
+
+.h {
+  width: 72px;
+  height: 8px;
+}
+
+.v {
+  width: 8px;
+  height: 64px;
+}
+
+.a {
+  top: 0;
+  left: 4px;
+}
+.b {
+  top: 4px;
+  right: 0;
+}
+.c {
+  bottom: 4px;
+  right: 0;
+}
+.d {
+  bottom: 0;
+  left: 4px;
+}
+.e {
+  bottom: 4px;
+  left: 0;
+}
+.f {
+  top: 4px;
+  left: 0;
+}
+.g {
+  top: 68px;
+  left: 4px;
+}
+

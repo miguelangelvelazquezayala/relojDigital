@@ -1,0 +1,13 @@
+<div class="digito">
+  <ng-container *ngFor="let segmento of segmentos; let i = index">
+    <ng-container [ngSwitch]="segmentos[i]">
+      <div *ngSwitchCase="'a'" class="h a"></div>
+      <div *ngSwitchCase="'b'" class="v b"></div>
+      <div *ngSwitchCase="'c'" class="v c"></div>
+      <div *ngSwitchCase="'d'" class="h d"></div>
+      <div *ngSwitchCase="'e'" class="v e"></div>
+      <div *ngSwitchCase="'f'" class="v f"></div>
+      <div *ngSwitchCase="'g'" class="h g"></div>
+    </ng-container>
+  </ng-container>
+</div>
